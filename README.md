@@ -9,7 +9,7 @@ The extension adds a cast option to the context menu (right click) of a Vimeo vi
 You must have the Google Cast extension installed.
 
 ### Installation
-Follow this [link](https://chrome.google.com/webstore/detail/pbvidcast-chromecast-for/jklkkahfncohfjgacjojgjhipioljjoh) to install it from the Chrome Web Store.
+Follow this [link](https://chrome.google.com/webstore/detail/pbvidcast-chromecast-for/almcajnjpinldbcdalndgdhcodnndhhn) to install it from the Chrome Web Store.
 
 ### License
 See the [LICENSE](https://github.com/bsphere/pbvidcast/blob/master/LICENSE.txt) file for license rights and limitations (MIT).
