@@ -3,7 +3,7 @@
   "name": "VimeoCast BETA - Chromecast™ for Vimeo",
   "short_name": "VimeoCast BETA",
   "description": "Cast Vimeo videos with ease (using VidCast) to your Chromecast/Android TV device",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "content_scripts": [
     {
       "js": ["jquery-2.1.1.min.js", "vimeocast.js"],

@@ -25,7 +25,6 @@ var cast = function(videoId) {
 };
 
 var onClick = function(event, tab) {
-  console.log(event, tab);
   if (event.frameUrl != null) {
       videoId = event.frameUrl.split("https://player.vimeo.com/video/")[1].split("?")[0];
       return cast(videoId);
@@ -44,5 +43,5 @@ chrome.contextMenus.create({
   "title": "Cast Video",
   "targetUrlPatterns": ["*://player.vimeo.com/*"],
   "contexts": ["frame", "editable"],
-  "onclick": onClick,
+  "onclick": onClick
 });

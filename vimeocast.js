@@ -18,9 +18,12 @@ var onEvent = function(event) {
 
 $(document).bind("contextmenu", onEvent);
 $(document).ready(function() {
-  $(".js-player, .faux_player").each(function(id, el) {
-    $(el).attr('contenteditable','true').css("outline", "none");
-  });
+  setTimeout(function() {
+    $(".js-player, .faux_player").each(function(id, el) {
+      $(el).attr('contenteditable','true').css("outline", "none");
+    });
+  }, 0);
+
 });
 
 chrome.extension.onRequest.addListener(function(request, sender, sendResponse) {
